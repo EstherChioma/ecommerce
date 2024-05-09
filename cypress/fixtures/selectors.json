@@ -1,0 +1,13 @@
+{ "myAccount" : "#main-navigation [data-toggle='sticky'] > div > :nth-child(3) > nav > div > ul > li:nth-child(6)",
+  "Register" :"aside div a[href=\"https://ecommerce-playground.lambdatest.io/index.php?route=account/register\"]",
+  "firstName": "#input-firstname",
+  "lastName": "#input-lastname",
+  "email": "#input-email",
+  "telephone" :"#input-telephone",
+  "password": "#input-password",
+  "confirmPassword": "#input-confirm",
+  "newLetterSubscription": "label[for='input-newsletter-no']",
+  "privacyPolicy" : "label[for='input-agree']",
+  "Continue" :"input[value='Continue']"
+
+}
