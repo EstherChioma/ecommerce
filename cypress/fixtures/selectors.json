@@ -8,6 +8,13 @@
   "confirmPassword": "#input-confirm",
   "newLetterSubscription": "label[for='input-newsletter-no']",
   "privacyPolicy" : "label[for='input-agree']",
-  "Continue" :"input[value='Continue']"
+  "Continue" :"input[value='Continue']",
+  "ugo":"ugochukwu",
+  "alecia": "alecia",
+  "yopmail": "esther@yopmail.com",
+  "phone_number":"07733732561"
+
+
+
 
 }

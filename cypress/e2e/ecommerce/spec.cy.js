@@ -24,6 +24,22 @@ describe(' Registration', () => {
    cy.get(data.Continue).click()
 
   })
+
+  it('Testing improved page object model : custom commands common action', () => {
+    cy.visit('/')
+    cy.clickAnyElement(data.myAccount)
+    cy.clickAnyElement(data.Register)
+    cy.typeAnyTextOnAnyTextField(data.firstName, data.alecia)
+    cy.typeAnyTextOnAnyTextField(data.lastName, data.ugochukwu)
+    cy.typeAnyTextOnAnyTextField(data.email,data.yopmail )
+    cy.typeAnyTextOnAnyTextField(data.telephone,data.phone_number )
+    cy.typeAnyTextOnAnyTextField(data.password)
+    cy.typeAnyTextOnAnyTextField(data.confirmPassword)
+    cy.clickAnyElement(data.newLetterSubscription)
+    cy.clickAnyElement(data.privacyPolicy)
+    cy.clickAnyElement(data.Continue)
+  })
+
  
 })
 
