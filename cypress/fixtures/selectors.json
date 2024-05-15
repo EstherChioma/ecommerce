@@ -12,7 +12,10 @@
   "ugo":"ugochukwu",
   "alecia": "alecia",
   "yopmail": "esther@yopmail.com",
-  "phone_number":"07733732561"
+  "phone_number":"07733732561",
+  "passwordField" : "esther123",
+  "confirmPasswordField" : "esther123"
+  
 
 
 
